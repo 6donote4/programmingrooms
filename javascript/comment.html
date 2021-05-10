@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <div id="outside">
+            <h3>最新评论</h3>
+            <div id="comment">
+                <div id="comment1" class="comment1">
+                    netFriends<span>Friends</span>
+                    <time>2021年5月8日 22:00:00</time>
+                    <p>test!</p>
+                </div>
+            </div>
+            <h4>发表评论</h4>
+            <div id="addComment">
+                昵称：
+                <input type="text" id="name" /><br/><br/>
+                内容:
+                <textarea id="comContent"></textarea>
+                <buttion onclick="addComment()">提交评论</button>
+            </div>
+        </div>
+        <script type="text/javascript">
+        var idNum = 1;
+        function addComment(){
+        idNum++;
+        var NameValue = document.getElementById("name").value;
+        var CommentValue = document.getElementById("comContent").value;
+        if(NameValue == ""&& CommentValue == ""){
+        alert("昵称与评论不能为空!");
+        return;
+        }
+        var comContent1 = document.getElementById("comment1");
+
+        }
+        </script>
+    </body>
+</html>
