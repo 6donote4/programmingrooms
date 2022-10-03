@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ourfunc.hpp"
+#include "../headers/ourfunc.hpp"
 void simon(int n)
 {
     using namespace std;

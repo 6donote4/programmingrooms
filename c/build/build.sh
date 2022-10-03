@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-list=`ls |cat|grep .c|awk -F. '{print $1}'|uniq `
+list=`ls $1|cat|grep .c|awk -F. '{print $1}'|uniq `
 for i in $list
 do
-    gcc -o $i $i.c
+    gcc -o $1/$i $1/$i.c
 done
 exit 0
