@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ourfunc.cpp"
+#include "../headers/ourfunc.cpp"
 
 int main()
 {

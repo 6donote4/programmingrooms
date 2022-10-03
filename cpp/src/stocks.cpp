@@ -1,5 +1,5 @@
 #include <cstring>
-#include "ourfunc.cpp"
+#include "../headers/stock.cpp"
 
 
 int main()
