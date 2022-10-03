@@ -1,6 +1,6 @@
+#include <iostream>
 #include <cstring>
 #include "../headers/stock.cpp"
-
 
 int main()
 {
